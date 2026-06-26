@@ -200,18 +200,7 @@ export default function Home() {
             {/* Left Column: Premium Editorial Content */}
             <div className={`lg:col-span-7 flex flex-col justify-center pt-28 pb-12 md:pt-36 md:pb-24 lg:pt-48 lg:pb-36 px-6 md:px-12 xl:px-20 relative z-20 ${isRtl ? "text-right order-first lg:order-last border-r border-gold-mid/10" : "text-left border-l border-gold-mid/10"}`}>
               <div className="space-y-6 max-w-2xl">
-                {/* Category badge */}
-                <motion.div
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-                  className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10"
-                >
-                  <span className="w-2 h-2 rounded-full bg-gold-mid animate-pulse" />
-                  <span className="text-[9px] uppercase tracking-[0.25em] font-bold text-gold-light font-sans">
-                    {t("heroBadge")}
-                  </span>
-                </motion.div>
+
 
                 {/* Editorial Headline */}
                 <motion.h1
