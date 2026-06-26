@@ -780,8 +780,8 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
               
               {/* Photo spotlight inside a tall vertical frame with double-bordered gold-line frame */}
-              <div className="w-full lg:col-span-5 relative aspect-[4/5] rounded-[36px] border border-gold-mid/30 p-2.5 bg-burgundy-black shadow-[0_0_35px_rgba(200,155,60,0.12)] group">
-                <div className="w-full h-full relative rounded-[28px] overflow-hidden border border-gold-mid/20 luxury-vignette">
+              <div className="w-full lg:col-span-5 relative rounded-[36px] border border-gold-mid/30 p-2.5 bg-burgundy-black shadow-[0_0_35px_rgba(200,155,60,0.12)] group flex flex-col gap-4">
+                <div className="w-full aspect-[4/5] relative rounded-[28px] overflow-hidden border border-gold-mid/20 luxury-vignette">
                   <motion.div 
                     className="w-full h-full relative luxury-gold-filter"
                     whileHover={{ scale: 1.03 }}
@@ -794,16 +794,16 @@ export default function Home() {
                       className="object-cover"
                     />
                   </motion.div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-burgundy-black/95 via-transparent to-transparent pointer-events-none z-20" />
-                  
-                  {/* Floating label overlay */}
-                  <div className={`absolute bottom-6 left-6 right-6 p-6 rounded-2xl bg-[#150106]/95 backdrop-blur-md border border-gold-mid/20 shadow-xl z-20 ${isRtl ? "text-right" : "text-left"}`}>
-                    <span className="px-3 py-1 rounded bg-gold-mid text-white text-[8px] tracking-[0.2em] uppercase font-bold font-sans inline-block mb-2">
-                      {doctors[activeDoctorIndex].tag}
-                    </span>
-                    <h4 className="text-white text-2xl font-bold tracking-wide font-sans">{doctors[activeDoctorIndex].name}</h4>
-                    <p className="text-gold-light text-[10px] uppercase tracking-widest font-semibold font-sans mt-1">{doctors[activeDoctorIndex].role}</p>
-                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-burgundy-black/40 via-transparent to-transparent pointer-events-none z-20" />
+                </div>
+                
+                {/* Nameplate container - placed naturally below the image instead of absolute overlay */}
+                <div className={`p-5 rounded-2xl bg-[#150106]/95 border border-gold-mid/20 shadow-xl z-20 ${isRtl ? "text-right" : "text-left"}`}>
+                  <span className="px-3 py-1 rounded bg-gold-mid text-white text-[8px] tracking-[0.2em] uppercase font-bold font-sans inline-block mb-2">
+                    {doctors[activeDoctorIndex].tag}
+                  </span>
+                  <h4 className="text-white text-2xl font-bold tracking-wide font-sans">{doctors[activeDoctorIndex].name}</h4>
+                  <p className="text-gold-light text-[10px] uppercase tracking-widest font-semibold font-sans mt-1">{doctors[activeDoctorIndex].role}</p>
                 </div>
               </div>
 
