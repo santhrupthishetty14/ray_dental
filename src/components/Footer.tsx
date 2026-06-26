@@ -122,7 +122,7 @@ export default function Footer({ onOpenBooking }: FooterProps) {
                 <span className="text-[9px] uppercase tracking-widest text-gold-dark font-bold block mb-1">{isRtl ? "المقر الرئيسي" : "CLINIC HEADQUARTERS"}</span>
                 <p className="leading-relaxed">{t("addressValue")}</p>
                 <a href="tel:+97156637056" className="text-burgundy hover:text-gold-dark transition-colors font-semibold block mt-1.5">
-                  +971 56 637056
+                  <span dir="ltr">+971 56 637056</span>
                 </a>
               </div>
             </div>

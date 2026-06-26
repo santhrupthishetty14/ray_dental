@@ -1172,7 +1172,7 @@ export default function Home() {
                   <div>
                     <span className="text-[10px] uppercase tracking-[0.2em] text-neutral-400 block font-light">{t("phoneLabel")}</span>
                     <a href="tel:+97156637056" className="text-sm text-neutral-350 font-light hover:text-gold-light transition-colors duration-700 ease-[0.22,1,0.36,1] block mt-1 tracking-wide">
-                      +971 56 637056
+                      <span dir="ltr">+971 56 637056</span>
                     </a>
                   </div>
                 </div>
