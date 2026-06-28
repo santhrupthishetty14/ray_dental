@@ -131,7 +131,7 @@ export default function Home() {
       specialty: t("doc7Specialty"),
       credentials: t("doc7Credentials"),
       experience: t("doc7Experience"),
-      image: "/dr_farook.jpg",
+      image: "/dr_farook.png",
       badge: isRtl ? "علاج جذور وتجميل" : "Endodontics & Esthetics",
       tag: isRtl ? "طبيب أسنان عام" : "General Dentist"
     }
