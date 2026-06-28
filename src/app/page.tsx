@@ -92,39 +92,6 @@ export default function Home() {
 
   const doctors = [
     {
-      name: t("doc1Name"),
-      role: t("doc1Role"),
-      bio: t("doc1Bio"),
-      specialty: t("doc1Specialty"),
-      credentials: t("doc1Credentials"),
-      experience: t("doc1Experience"),
-      image: "/dr_friedman_enhanced.png",
-      badge: isRtl ? "زراعة وتجميل" : "Implant & Cosmetic",
-      tag: isRtl ? "تدريب ميش" : "Misch Trained"
-    },
-    {
-      name: t("doc2Name"),
-      role: t("doc2Role"),
-      bio: t("doc2Bio"),
-      specialty: t("doc2Specialty"),
-      credentials: t("doc2Credentials"),
-      experience: t("doc2Experience"),
-      image: "/dr_harper_enhanced.png",
-      badge: isRtl ? "علاج انقطاع النفس" : "Sleep Apnea Expert",
-      tag: isRtl ? "أخصائية أطفال" : "Pediatric Focus"
-    },
-    {
-      name: t("doc3Name"),
-      role: t("doc3Role"),
-      bio: t("doc3Bio"),
-      specialty: t("doc3Specialty"),
-      credentials: t("doc3Credentials"),
-      experience: t("doc3Experience"),
-      image: "/dr_lambert_enhanced.png",
-      badge: isRtl ? "طب الأسنان العائلي" : "Family Dentistry",
-      tag: isRtl ? "عضو ADA" : "ADA Member"
-    },
-    {
       name: t("doc4Name"),
       role: t("doc4Role"),
       bio: t("doc4Bio"),
@@ -133,7 +100,7 @@ export default function Home() {
       experience: t("doc4Experience"),
       image: "/dr_shereef.jpg",
       badge: isRtl ? "تجميل الأسنان" : "Cosmetic Dentist",
-      tag: isRtl ? "تصميم الابتسامة" : "Smile Designer"
+      tag: isRtl ? "المؤسس والرئيس التنفيذي" : "Founder and CEO"
     },
     {
       name: t("doc5Name"),
@@ -144,7 +111,29 @@ export default function Home() {
       experience: t("doc5Experience"),
       image: "/dr_wujithan.jpg",
       badge: isRtl ? "جراحة وعلاج عصب" : "Dental Surgeon & Endodontist",
-      tag: isRtl ? "الشريك المؤسس" : "Co-Founder & CFO"
+      tag: isRtl ? "الشريك المؤسس والمدير المالي" : "Co-founder and CFO"
+    },
+    {
+      name: t("doc6Name"),
+      role: t("doc6Role"),
+      bio: t("doc6Bio"),
+      specialty: t("doc6Specialty"),
+      credentials: t("doc6Credentials"),
+      experience: t("doc6Experience"),
+      image: "/dr_salam.jpg",
+      badge: isRtl ? "طبيب أسنان عام" : "General Dentist",
+      tag: isRtl ? "الرئيس التنفيذي للعمليات" : "Chief Operating Officer"
+    },
+    {
+      name: t("doc7Name"),
+      role: t("doc7Role"),
+      bio: t("doc7Bio"),
+      specialty: t("doc7Specialty"),
+      credentials: t("doc7Credentials"),
+      experience: t("doc7Experience"),
+      image: "/dr_farook.jpg",
+      badge: isRtl ? "علاج جذور وتجميل" : "Endodontics & Esthetics",
+      tag: isRtl ? "طبيب أسنان عام" : "General Dentist"
     }
   ];
 
@@ -806,7 +795,7 @@ export default function Home() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-8 border-t border-white/10">
                   <div className="space-y-2">
-                    <span className="text-[10px] uppercase tracking-widest text-neutral-450 font-bold block">{isRtl ? "التخصص الدقيق" : "Specialization"}</span>
+                    <span className="text-[10px] uppercase tracking-widest text-neutral-450 font-bold block">{isRtl ? "المسمى الوظيفي" : "Designation"}</span>
                     <p className="text-sm sm:text-base font-semibold text-gold-light font-sans">{doctors[activeDoctorIndex].specialty}</p>
                   </div>
                   <div className="space-y-2">

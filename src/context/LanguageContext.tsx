@@ -119,24 +119,44 @@ const translations: Record<string, Record<Language, string>> = {
   doc3Experience: { en: "20+ Years Family Clinical Trust", ar: "أكثر من ٢٠ عاماً من الثقة الإكلينيكية العائلية" },
 
   doc4Name: { en: "Dr. Shereef K. Bava", ar: "د. شريف ك. بافا" },
-  doc4Role: { en: "Cosmetic Dentist | Founder & CEO, Ray Dental Clinic LLC", ar: "طبيب أسنان تجميلي | المؤسس والرئيس التنفيذي، عيادة راي لطب الأسنان ذ.م.م" },
+  doc4Role: { en: "Cosmetic Dentist | Founder and CEO, Ray Dental Clinic LLC", ar: "طبيب أسنان تجميلي | المؤسس والرئيس التنفيذي، عيادة راي لطب الأسنان ذ.م.م" },
   doc4Bio: {
     en: "Dr. Shereef K. Bava is a passionate Cosmetic Dentist with nearly a decade of experience in aesthetic dentistry. As the Founder & CEO of Ray Dental Clinic LLC, he specializes in Hollywood Smile Designing, Smile Makeovers, Veneers, and advanced cosmetic dental treatments. Known for his artistic approach and attention to detail, Dr. Shereef combines modern dental techniques with personalized care to create natural, confident smiles. His commitment to excellence and patient satisfaction has made him a trusted name in cosmetic dentistry.",
     ar: "الدكتور شريف ك. بافا هو طبيب أسنان تجميلي شغوف يتمتع بخبرة تقارب العقد في طب الأسنان التجميلي. بصفته المؤسس والرئيس التنفيذي لعيادة راي لطب الأسنان ذ.م.م، فهو متخصص في تصميم ابتسامة هوليوود، وتجميل الابتسامة، والفينير، وعلاجات الأسنان التجميلية المتقدمة. يشتهر الدكتور شريف بأسلوبه الفني واهتمامه بالتفاصيل، ويجمع بين تقنيات طب الأسنان الحديثة والرعاية الشخصية لخلق ابتسامات طبيعية وواثقة. إن التزامه بالتميز ورضا المرضى جعله اسماً موثوقاً به في طب الأسنان التجميلي."
   },
-  doc4Specialty: { en: "Cosmetic & Aesthetic Dentistry", ar: "طب الأسنان التجميلي والجمالي" },
+  doc4Specialty: { en: "Founder and CEO", ar: "المؤسس والرئيس التنفيذي" },
   doc4Credentials: { en: "Cosmetic Dentist • Specialist in Aesthetic Dentistry", ar: "طبيب أسنان تجميلي • أخصائي تجميل الأسنان" },
   doc4Experience: { en: "9+ Years Aesthetic Dentistry", ar: "أكثر من ٩ سنوات في تجميل الأسنان" },
 
   doc5Name: { en: "Dr. Wujithan Sid", ar: "د. وجيثان سيد" },
-  doc5Role: { en: "Dental Surgeon | Co-Founder & CFO, Ray Dental Clinic LLC", ar: "جراحة أسنان | الشريك المؤسس والمدير المالي، عيادة راي لطب الأسنان ذ.م.م" },
+  doc5Role: { en: "Dental Surgeon | Co-founder and CFO, Ray Dental Clinic LLC", ar: "جراحة أسنان | الشريك المؤسس والمدير المالي، عيادة راي لطب الأسنان ذ.م.م" },
   doc5Bio: {
     en: "Dr. Wujithan Sid is a dedicated Dental Surgeon with a special focus on Endodontics and Pediatric Dentistry. As the Co-Founder & CFO of Ray Dental Clinic LLC, she combines clinical excellence with strategic leadership, contributing to both exceptional patient care and the growth of the organization. Skilled in root canal treatments, pediatric dental care, restorative dentistry, preventive dentistry, dental extractions, and emergency dental management, Dr. Wujithan is committed to delivering compassionate, evidence-based dental care for patients of all ages. Her gentle approach, clinical precision, and patient-centered philosophy have made her a trusted choice for both children and adults.",
     ar: "الدكتورة وجيثان سيد هي جراحة أسنان متميزة تركز بشكل خاص على علاج عصب الأسنان وطب أسنان الأطفال. بصفتها الشريك المؤسس والمدير المالي لعيادة راي لطب الأسنان ذ.م.م، فهي تجمع بين التميز السريري والقيادة الاستراتيجية، مما يساهم في تقديم رعاية استثنائية للمرضى ونمو المؤسسة. تتمتع الدكتورة وجيثان بمهارة عالية في علاجات قنوات الجذور، ورعاية أسنان الأطفال، وطب الأسنان الترميمي، وطب الأسنان الوقائي، وخلع الأسنان، وإدارة حالات طوارئ الأسنان، وهي ملتزمة بتقديم رعاية أسنان رحيمة ومبنية على الأدلة للمرضى من جميع الأعمار. إن أسلوبها اللطيف، ودقتها السريرية، وفلسفتها التي تركز على المريض جعلتها خياراً موثوقاً به للأطفال والبالغين على حد سواء."
   },
-  doc5Specialty: { en: "Endodontics & Pediatric Dentistry", ar: "علاج جذور الأسنان وطب أسنان الأطفال" },
+  doc5Specialty: { en: "Co-founder and CFO", ar: "الشريك المؤسس والمدير المالي" },
   doc5Credentials: { en: "Dental Surgeon (BDS) • Specialist in Endodontics & Pedodontics", ar: "جراحة أسنان (BDS) • أخصائية علاج الجذور وطب أسنان الأطفال" },
   doc5Experience: { en: "10+ Years Dedicated Clinical Care", ar: "أكثر من ١٠ سنوات من الرعاية السريرية المخصصة" },
+
+  doc6Name: { en: "Dr. Muhammed Salam K", ar: "د. محمد سلام ك." },
+  doc6Role: { en: "Chief Operating Officer (COO), Ray Dental LLC | General Dentist", ar: "طبيب أسنان عام | الرئيس التنفيذي للعمليات، راي لطب الأسنان ذ.م.م" },
+  doc6Bio: {
+    en: "A dedicated General Dentist with over 5 years of clinical experience, skilled in managing a wide range of routine dental procedures. As the Chief Operating Officer (COO) of Ray Dental LLC, he combines clinical expertise with operational leadership to ensure high standards of patient care and practice management. Passionate about Exodontia and Minor Oral Surgical Procedures, with strong expertise in restorative dentistry, preventive care, emergency dental management, and comprehensive treatment planning.",
+    ar: "طبيب أسنان عام متميز يتمتع بخبرة سريرية تزيد عن ٥ سنوات، وماهر في إدارة مجموعة واسعة من إجراءات طب الأسنان الروتينية. بصفته الرئيس التنفيذي للعمليات (COO) لشركة راي لطب الأسنان ذ.م.م، فهو يجمع بين الخبرة السريرية والقيادة التشغيلية لضمان معايير عالية من رعاية المرضى وإدارة العيادة. شغوف بخلع الأسنان والإجراءات الجراحية الصغرى للفم، مع خبرة قوية في طب الأسنان الترميمي، والرعاية الوقائية، وإدارة طوارئ الأسنان، والتخطيط الشامل للعلاج."
+  },
+  doc6Specialty: { en: "Chief Operating Officer & General Dentist", ar: "الرئيس التنفيذي للعمليات وطبيب أسنان عام" },
+  doc6Credentials: { en: "BDS • Specialist in Minor Oral Surgery", ar: "بكالوريوس في جراحة طب الأسنان (BDS) • متخصص في جراحة الفم الصغرى" },
+  doc6Experience: { en: "5+ Years Clinical Practice", ar: "أكثر من ٥ سنوات من الممارسة السريرية" },
+
+  doc7Name: { en: "Dr. Farook Rahman Kalappattil", ar: "د. فاروق رحمن كالاباتيل" },
+  doc7Role: { en: "General Dentist", ar: "طبيب أسنان عام" },
+  doc7Bio: {
+    en: "Dr. Farook Rahman Kalappattil is a skilled General Dentist with 5 years of clinical experience. He is recognized for exceptional clinical precision, excellent hand skills, and a compassionate, patient-centered approach, ensuring comfortable and high-quality dental care. He specializes in root canal treatment, pulpectomy, cosmetic dentistry, and minor surgical procedures.",
+    ar: "الدكتور فاروق رحمن كالاباتيل هو طبيب أسنان عام ماهر يتمتع بخبرة سريرية تبلغ ٥ سنوات. وهو معروف بدقته السريرية الاستثنائية، ومهاراته اليدوية الممتازة، ونهجه الرحيم الذي يركز على المريض، مما يضمن رعاية أسنان مريحة وعالية الجودة. وهو متخصص في علاج عصب الأسنان، واستئصال اللب، وطب الأسنان التجميلي، والإجراءات الجراحية الصغرى."
+  },
+  doc7Specialty: { en: "General Dentist", ar: "طبيب أسنان عام" },
+  doc7Credentials: { en: "BDS • Specialist in Root Canal & Esthetics", ar: "بكالوريوس في جراحة طب الأسنان (BDS) • أخصائي علاج الجذور وتجميل الأسنان" },
+  doc7Experience: { en: "5+ Years Clinical Practice", ar: "أكثر من ٥ سنوات من الممارسة السريرية" },
 
   // Technology Section
   techTitle: { en: "Futuristic Precision Dentistry", ar: "التقنيات الحديثة" },
