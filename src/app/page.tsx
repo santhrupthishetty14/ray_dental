@@ -111,7 +111,7 @@ export default function Home() {
       experience: t("doc5Experience"),
       image: "/dr_wujithan.jpg",
       badge: isRtl ? "جراحة وعلاج عصب" : "Dental Surgeon & Endodontist",
-      tag: isRtl ? "الشريك المؤسس والمدير المالي" : "Co-founder and CFO"
+      tag: isRtl ? "المؤسس والمدير المالي" : "Founder and CFO"
     },
     {
       name: t("doc6Name"),
