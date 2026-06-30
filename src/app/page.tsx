@@ -1186,7 +1186,7 @@ export default function Home() {
             <div className="lg:col-span-7 rounded-[32px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-gold-mid/20 min-h-[400px] relative transition-all duration-700 ease-[0.22,1,0.36,1] hover:scale-[1.01]">
               <iframe
                 title="Ray Dental Clinic Fujairah Clinic"
-                src="https://maps.google.com/maps?q=Office%20No%3A%20202%2C%20Burj%20Amoon%2C%20Near%20Sharjah%20Islamic%20Bank%2C%20Al%20Gurfah%2C%20Fujairah%2C%20UAE&output=embed"
+                src="https://maps.google.com/maps?q=Burj%20Amoon%2C%20Al%20Gurfah%2C%20Fujairah%2C%20UAE&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: "400px" }}
