@@ -1198,7 +1198,7 @@ export default function Home() {
               {/* Direct WhatsApp Concierge Trigger */}
               <div className="mt-4">
                 <a
-                  href="https://wa.me/971566370056?text=Hello%20Ray%20Dental,%20I%20would%20like%20to%20schedule%2520a%2520private%2520luxury%2520consultation."
+                  href="https://wa.me/971566370056?text=Hello%20Ray%20Dental%20Clinic,%20I%20would%20like%20to%20book%20a%20private%20consultation."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border border-[#25D366]/40 hover:border-[#25D366] text-[#25D366] text-[11px] font-bold tracking-[0.2em] uppercase px-8 py-4 rounded-full bg-[#25D366]/5 hover:bg-[#25D366]/10 transition-all duration-700 ease-[0.22,1,0.36,1] font-sans"

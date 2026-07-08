@@ -11,7 +11,7 @@ interface FloatingWidgetsProps {
 export default function FloatingWidgets({ onOpenBooking }: FloatingWidgetsProps) {
   const { language } = useLanguage();
   const isRtl = language === "ar";
-  const whatsappUrl = "https://wa.me/971566370056?text=Hello%20Ray%20Dental%20Clinic,%20I%20would%20like%20to%20schedule%20a%20private%20luxury%20consultation.";
+  const whatsappUrl = "https://wa.me/971566370056?text=Hello%20Ray%20Dental%20Clinic,%20I%20would%20like%20to%20book%20a%20private%20consultation.";
 
   return (
     <>
