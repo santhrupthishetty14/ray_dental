@@ -16,7 +16,7 @@ export default function FloatingWidgets({ onOpenBooking }: FloatingWidgetsProps)
   return (
     <>
       {/* Floating Action Buttons */}
-      <div className="fixed bottom-6 right-6 z-40 flex flex-col gap-3">
+      <div className="fixed bottom-20 md:bottom-6 right-6 z-40 flex flex-col gap-3">
         {/* Call Button */}
         <a
           href="tel:+971566370056"
