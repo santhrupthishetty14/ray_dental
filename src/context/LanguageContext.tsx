@@ -181,20 +181,20 @@ const translations: Record<string, Record<Language, string>> = {
     en: "I love Ray Dental Clinic! They are always so kind and willing to work with you. They actually care about their patients. I love this place!",
     ar: "فريق احترافي ومتميز. شعرت بالراحة منذ الزيارة الأولى وكانت النتائج رائعة.",
   },
-  review1Author: { en: "Emily W.", ar: "إيميلي و." },
+  review1Author: { en: "Saif Bin Muhammed", ar: "سيف بن محمد" },
   review1Loc: { en: "Fujairah, UAE", ar: "الفجيرة، الإمارات" },
   review2Text: {
     en: "Everyone at Ray Dental is so courteous and always has a smile. They know me by name and always accommodate me, getting me in right away if I have a problem!",
     ar: "أفضل تجربة علاج أسنان مررت بها. اهتمام كبير بالتفاصيل وشرح واضح لكل خطوة.",
   },
-  review2Author: { en: "Kristi K.", ar: "كريستي ك." },
-  review2Loc: { en: "Kalba, UAE", ar: "كلباء، الإمارات" },
+  review2Author: { en: "Sana Fathima", ar: "سناء فاطمة" },
+  review2Loc: { en: "Morocco", ar: "المغرب" },
   review3Text: {
     en: "The doctors and the whole team are just terrific. I would highly recommend them to anyone looking for a great dentist.",
     ar: "الأطباء والفريق بأكمله رائعون حقًا. أوصي بهم بشدة لأي شخص يبحث عن طبيب أسنان رائع.",
   },
-  review3Author: { en: "Steve M.", ar: "ستيف م." },
-  review3Loc: { en: "Khorfakkan, UAE", ar: "خورفكان، الإمارات" },
+  review3Author: { en: "Jane Elizabeth", ar: "جين إليزابيث" },
+  review3Loc: { en: "Philippines", ar: "الفلبين" },
 
   // Clinic Experience Section
   expTitle: { en: "Two Decades of Trust, Five-Star Care", ar: "عقدان من الثقة، رعاية خمس نجوم" },
