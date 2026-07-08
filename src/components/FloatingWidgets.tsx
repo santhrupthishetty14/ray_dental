@@ -16,7 +16,7 @@ export default function FloatingWidgets({ onOpenBooking }: FloatingWidgetsProps)
   return (
     <>
       {/* Floating Action Buttons */}
-      <div className="fixed bottom-20 md:bottom-6 right-6 z-40 flex flex-col gap-3">
+      <div className="fixed bottom-24 md:bottom-6 right-6 z-[45] flex flex-col gap-3">
         {/* Call Button */}
         <a
           href="tel:+971566370056"
@@ -40,7 +40,7 @@ export default function FloatingWidgets({ onOpenBooking }: FloatingWidgetsProps)
       </div>
 
       {/* Sticky Mobile Booking Bottom Bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-[#FAF6F0]/95 backdrop-blur-md border-t border-gold-mid/15 shadow-[0_-5px_20px_rgba(0,0,0,0.05)] px-4 py-2 flex gap-3">
+      <div className="fixed bottom-0 left-0 right-0 z-30 md:hidden bg-[#FAF6F0]/95 backdrop-blur-md border-t border-gold-mid/15 shadow-[0_-5px_20px_rgba(0,0,0,0.05)] px-4 py-2 flex gap-3">
         <a
           href="tel:+971566370056"
           className="flex-1 flex items-center justify-center gap-1.5 border border-gold-mid/30 py-2 rounded-full text-[9px] font-bold tracking-[0.12em] text-neutral-800 hover:text-gold-dark hover:border-gold-mid transition-all uppercase"
