@@ -226,7 +226,7 @@ const translations: Record<string, Record<Language, string>> = {
   hoursWeekdays: { en: "Fri - Wed: 9:00 AM - 1:30 PM & 4:30 PM - 10:30 PM", ar: "الجمعة – الأربعاء: 9:00 صباحاً – 1:30 ظهراً ومن 4:30 عصراً – 10:30 مساءً" },
   hoursSunday: { en: "Thursday: Closed", ar: "الخميس: مغلق" },
   addressLabel: { en: "Address", ar: "العنوان" },
-  addressValue: { en: "Office No: 202, Burj Amoon, Near Sharjah Islamic Bank, Al Ghurfah, Fujairah, UAE", ar: "مكتب رقم 202، برج آمون، بالقرب من مصرف الشارقة الإسلامي، الغرفة، الفجيرة، الإمارات العربية المتحدة" },
+  addressValue: { en: "Office No: 202, Burj\u00a0Amoon, Near Sharjah Islamic Bank, Al\u00a0Ghurfah, Fujairah, UAE", ar: "مكتب رقم 202، برج آمون، بالقرب من مصرف الشارقة الإسلامي، الغرفة، الفجيرة، الإمارات العربية المتحدة" },
   phoneLabel: { en: "Phone Concierge", ar: "الهاتف" },
   whatsappLabel: { en: "Direct Concierge", ar: "الكونسيرج المباشر" },
 
