@@ -94,17 +94,17 @@ export default function Footer({ onOpenBooking }: FooterProps) {
           </h4>
           <div className="space-y-4 text-xs text-neutral-600 font-light font-sans">
             <div className="space-y-1">
-              <span className="text-[10px] uppercase tracking-wider text-neutral-500 font-bold block">{isRtl ? "الإثنين – الجمعة" : "Mon - Fri"}</span>
+              <span className="text-[10px] uppercase tracking-wider text-neutral-500 font-bold block">{isRtl ? "الجمعة – الأربعاء" : "Fri - Wed"}</span>
               <p className="flex items-center gap-2">
                 <Clock className="h-3.5 w-3.5 text-gold-mid shrink-0" />
-                <span>{isRtl ? "8:00 صباحاً – 5:00 مساءً" : "8:00 AM - 5:00 PM"}</span>
+                <span>{isRtl ? "9:00 صباحاً – 1:30 ظهراً / 4:30 عصراً – 10:30 مساءً" : "9:00 AM - 1:30 PM & 4:30 PM - 10:30 PM"}</span>
               </p>
             </div>
             <div className="space-y-1">
-              <span className="text-[10px] uppercase tracking-wider text-neutral-500 font-bold block">{isRtl ? "السبت والأحد" : "Sat & Sun"}</span>
+              <span className="text-[10px] uppercase tracking-wider text-neutral-500 font-bold block">{isRtl ? "الخميس" : "Thursday"}</span>
               <p className="flex items-center gap-2">
                 <Clock className="h-3.5 w-3.5 text-gold-mid/45 shrink-0" />
-                <span>{isRtl ? "مغلق" : "Closed"}</span>
+                <span>{isRtl ? "مغلق (عطلة)" : "Closed (Off)"}</span>
               </p>
             </div>
           </div>
