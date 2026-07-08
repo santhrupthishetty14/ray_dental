@@ -62,9 +62,36 @@ export default function Home() {
     }
   }, []);
 
-  const handleBookingSubmit = (e: React.FormEvent) => {
+  const handleBookingSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsBooked(true);
+
+    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "YOUR_ACCESS_KEY_HERE";
+    if (accessKey && accessKey !== "YOUR_ACCESS_KEY_HERE") {
+      try {
+        await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            access_key: accessKey,
+            subject: `New Booking Request from ${bookingName}`,
+            from_name: "Ray Dental Website Form",
+            name: bookingName,
+            phone: bookingPhone,
+            email: bookingEmail,
+            service: bookingService,
+            date: bookingDate,
+            message: `Suite booking requested via homepage form.`
+          }),
+        });
+      } catch (err) {
+        console.error("Form submission error:", err);
+      }
+    }
+
     setTimeout(() => {
       setIsBooked(false);
       setBookingName("");
@@ -1149,8 +1176,8 @@ export default function Home() {
                   </div>
                   <div>
                     <span className="text-[10px] uppercase tracking-[0.2em] text-neutral-400 block font-light">{t("phoneLabel")}</span>
-                    <a href="tel:+97156637056" className="text-sm text-neutral-350 font-light hover:text-gold-light transition-colors duration-700 ease-[0.22,1,0.36,1] block mt-1 tracking-wide">
-                      <span dir="ltr">+971 56 637056</span>
+                    <a href="tel:+971566370056" className="text-sm text-neutral-350 font-light hover:text-gold-light transition-colors duration-700 ease-[0.22,1,0.36,1] block mt-1 tracking-wide">
+                      <span dir="ltr">+971 56 637 0056</span>
                     </a>
                   </div>
                 </div>
@@ -1161,8 +1188,8 @@ export default function Home() {
                   </div>
                   <div>
                     <span className="text-[10px] uppercase tracking-[0.2em] text-neutral-400 block font-light">{isRtl ? "البريد الإلكتروني للكونسيرج" : "Concierge Email"}</span>
-                    <a href="mailto:info@raydental.com" className="text-sm text-neutral-350 font-light hover:text-gold-light transition-colors duration-700 ease-[0.22,1,0.36,1] block mt-1 tracking-wide">
-                      info@raydental.com
+                    <a href="mailto:info@raydentaluae.com" className="text-sm text-neutral-350 font-light hover:text-gold-light transition-colors duration-700 ease-[0.22,1,0.36,1] block mt-1 tracking-wide">
+                      info@raydentaluae.com
                     </a>
                   </div>
                 </div>
@@ -1171,7 +1198,7 @@ export default function Home() {
               {/* Direct WhatsApp Concierge Trigger */}
               <div className="mt-4">
                 <a
-                  href="https://wa.me/97156637056?text=Hello%20Ray%20Dental,%20I%20would%20like%20to%20schedule%2520a%2520private%2520luxury%2520consultation."
+                  href="https://wa.me/971566370056?text=Hello%20Ray%20Dental,%20I%20would%20like%20to%20schedule%2520a%2520private%2520luxury%2520consultation."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border border-[#25D366]/40 hover:border-[#25D366] text-[#25D366] text-[11px] font-bold tracking-[0.2em] uppercase px-8 py-4 rounded-full bg-[#25D366]/5 hover:bg-[#25D366]/10 transition-all duration-700 ease-[0.22,1,0.36,1] font-sans"
@@ -1186,7 +1213,7 @@ export default function Home() {
             <div className="lg:col-span-7 rounded-[32px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-gold-mid/20 min-h-[400px] relative transition-all duration-700 ease-[0.22,1,0.36,1] hover:scale-[1.01]">
               <iframe
                 title="Ray Dental Clinic Fujairah Clinic"
-                src="https://maps.google.com/maps?q=Burj%20Amoon%2C%20Al%20Gurfah%2C%20Fujairah%2C%20UAE&output=embed"
+                src="https://maps.google.com/maps?q=Burj%20Amoon%2C%20Al%20Ghurfah%2C%20Fujairah%2C%20UAE&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: "400px" }}

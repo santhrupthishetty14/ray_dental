@@ -22,12 +22,12 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Ray Dental Clinic | Family Dentist in Rapid City, SD",
-  description: "Experience exceptional family and cosmetic dental care at Ray Dental Clinic in Rapid City, South Dakota. Over 60 years of clinical excellence offering implants, veneers, sleep apnea therapy, and general dentistry.",
-  keywords: ["Ray Dental Clinic", "Ray Dental Clinic LLC", "Rapid City Dentist", "Dentist South Dakota", "Dental Implants Rapid City", "Cosmetic Dentistry Rapid City", "Sleep Apnea Treatment Rapid City", "Family Dentist SD"],
+  title: "Ray Dental Clinic | Family & Cosmetic Dentist in Fujairah, UAE",
+  description: "Experience exceptional family and cosmetic dental care at Ray Dental Clinic in Fujairah, UAE. Over two decades of clinical trust offering implants, veneers, and general dentistry.",
+  keywords: ["Ray Dental Clinic", "Ray Dental Clinic LLC", "Fujairah Dentist", "Dentist UAE", "Dental Implants Fujairah", "Cosmetic Dentistry Fujairah", "Family Dentist Fujairah", "Al Ghurfah Dentist"],
   openGraph: {
     title: "Ray Dental Clinic | Exceptional Family & Cosmetic Dentistry",
-    description: "Advanced family, cosmetic, and restorative dentistry delivered with exceptional care and over 60 years of clinical heritage in South Dakota.",
+    description: "Advanced family, cosmetic, and restorative dentistry delivered with exceptional care and over two decades of clinical heritage in Fujairah, UAE.",
     type: "website",
     locale: "en_US",
   },

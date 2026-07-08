@@ -44,7 +44,7 @@ const serviceRegistry: Record<string, ServiceContent> = {
   veneers: {
     title: "Porcelain Veneers & Smile Design",
     subheading: "Transform your smile's alignment, contour, and brilliant shade with ultra-thin handcrafted porcelain.",
-    metaDesc: "Achieve a gorgeous smile with handcrafted porcelain veneers at Ray Dental Group. Personalized smile architecture in Rapid City, South Dakota.",
+    metaDesc: "Achieve a gorgeous smile with handcrafted porcelain veneers at Ray Dental Clinic. Personalized smile architecture in Fujairah, UAE.",
     benefits: [
       "Bespoke Face-Driven Aesthetics",
       "Minimally Invasive Surface Preparation",
@@ -66,7 +66,7 @@ const serviceRegistry: Record<string, ServiceContent> = {
   cosmetic: {
     title: "Elite Cosmetic Dentistry Suites",
     subheading: "Harmonize your facial profile and teeth aesthetics with customized smile contouring and styling.",
-    metaDesc: "Cosmetic dentistry at Ray Dental Group. Tailored smile makeovers combining advanced procedures in Rapid City, South Dakota.",
+    metaDesc: "Cosmetic dentistry at Ray Dental Clinic. Tailored smile makeovers combining advanced procedures in Fujairah, UAE.",
     benefits: [
       "Comprehensive Smile Makeovers",
       "Gingival Laser Contouring (Gum Lift)",
@@ -212,7 +212,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
   return {
-    title: `${service.title} | Ray Dental Group Rapid City`,
+    title: `${service.title} | Ray Dental Clinic LLC`,
     description: service.metaDesc,
   };
 }

@@ -46,9 +46,36 @@ export default function BookingModal({ isOpen, onClose }: BookingModalProps) {
   const handleNext = () => setStep((prev) => prev + 1);
   const handlePrev = () => setStep((prev) => prev - 1);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStep(4); // Success step
+
+    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "YOUR_ACCESS_KEY_HERE";
+    if (accessKey && accessKey !== "YOUR_ACCESS_KEY_HERE") {
+      try {
+        await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            access_key: accessKey,
+            subject: `New Booking Request from ${formData.name}`,
+            from_name: "Ray Dental Website Form (Modal)",
+            name: formData.name,
+            phone: formData.phone,
+            email: formData.email,
+            service: formData.service,
+            date: formData.date,
+            time: formData.time || "N/A",
+            message: formData.notes || "Booking via reservation modal."
+          }),
+        });
+      } catch (err) {
+        console.error("Form submission error:", err);
+      }
+    }
   };
 
   const handleClose = () => {

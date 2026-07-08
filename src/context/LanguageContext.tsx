@@ -182,29 +182,29 @@ const translations: Record<string, Record<Language, string>> = {
     ar: "فريق احترافي ومتميز. شعرت بالراحة منذ الزيارة الأولى وكانت النتائج رائعة.",
   },
   review1Author: { en: "Emily W.", ar: "إيميلي و." },
-  review1Loc: { en: "Rapid City, SD", ar: "رابط سيتي، ساوث داكوتا" },
+  review1Loc: { en: "Fujairah, UAE", ar: "الفجيرة، الإمارات" },
   review2Text: {
     en: "Everyone at Ray Dental is so courteous and always has a smile. They know me by name and always accommodate me, getting me in right away if I have a problem!",
     ar: "أفضل تجربة علاج أسنان مررت بها. اهتمام كبير بالتفاصيل وشرح واضح لكل خطوة.",
   },
   review2Author: { en: "Kristi K.", ar: "كريستي ك." },
-  review2Loc: { en: "Rapid City, SD", ar: "رابط سيتي، ساوث داكوتا" },
+  review2Loc: { en: "Kalba, UAE", ar: "كلباء، الإمارات" },
   review3Text: {
     en: "The doctors and the whole team are just terrific. I would highly recommend them to anyone looking for a great dentist.",
     ar: "الأطباء والفريق بأكمله رائعون حقًا. أوصي بهم بشدة لأي شخص يبحث عن طبيب أسنان رائع.",
   },
   review3Author: { en: "Steve M.", ar: "ستيف م." },
-  review3Loc: { en: "Rapid City, SD", ar: "رابيد سيتي، ساوث داكوتا" },
+  review3Loc: { en: "Khorfakkan, UAE", ar: "خورفكان، الإمارات" },
 
   // Clinic Experience Section
-  expTitle: { en: "Six Decades of Trust, Five-Star Care", ar: "من نحن" },
+  expTitle: { en: "Two Decades of Trust, Five-Star Care", ar: "عقدان من الثقة، رعاية خمس نجوم" },
   expText1: {
-    en: "At Ray Dental Clinic, we combine a 60-year legacy of clinical trust in Rapid City with the latest advancements in modern, gentle dentistry. Every visit is tailored to your comfort in a relaxing environment equipped with cutting-edge dental technology.",
-    ar: "منذ عقود، تلتزم عيادة راي لطب الأسنان بتقديم رعاية متقدمة تجمع بين الخبرة السريرية والتقنيات الحديثة في بيئة مريحة واحترافية. نؤمن بأن كل ابتسامة فريدة، ولذلك نعمل على تصميم خطط علاجية مخصصة تلبي احتياجات كل مريض بدقة واهتمام.",
+    en: "At Ray Dental Clinic, we combine over two decades of clinical trust and experience with the latest advancements in modern, gentle dentistry. Every visit is tailored to your comfort in a relaxing environment equipped with cutting-edge dental technology.",
+    ar: "منذ أكثر من عقدين، تلتزم عيادة راي لطب الأسنان بتقديم رعاية سريرية موثوقة تجمع بين الخبرة والتميز وأحدث التقنيات الحديثة واللطيفة. كل زيارة مصممة خصيصاً لراحتك في بيئة مريحة ومجهزة بأحدث تقنيات طب الأسنان.",
   },
   expText2: {
-    en: "Our state-of-the-art office is fully equipped for everything from routine family care and cosmetic smiles to advanced implant dentistry and specialized sleep apnea treatments, maintaining the highest standards of safety and care in South Dakota.",
-    ar: "سواء كنت تبحث عن رعاية وقائية، علاجية أو تجميلية، ستجد فريقاً متخصصاً يرافقك في كل خطوة لتحقيق أفضل النتائج الممكنة.",
+    en: "Our state-of-the-art office is fully equipped for everything from routine family care and cosmetic smiles to advanced implant dentistry and specialized treatments, maintaining the highest standards of safety and care in the UAE.",
+    ar: "سواء كنت تبحث عن رعاية وقائية، علاجية أو تجميلية، ستجد فريقاً متخصصاً يرافقك في كل خطوة لتحقيق أفضل النتائج الممكنة، مع الحفاظ على أعلى معايير السلامة والرعاية في دولة الإمارات العربية المتحدة.",
   },
 
   // Booking Form
@@ -223,10 +223,10 @@ const translations: Record<string, Record<Language, string>> = {
   // Contact Info
   contactTitle: { en: "Coordinates of Care", ar: "معلومات التواصل" },
   openingHours: { en: "Opening Hours", ar: "ساعات العمل" },
-  hoursWeekdays: { en: "Mon - Fri: 8:00 AM - 5:00 PM", ar: "الإثنين – الجمعة: 8:00 صباحاً – 5:00 مساءً" },
-  hoursSunday: { en: "Sat & Sun: Closed", ar: "السبت والأحد: مغلق" },
+  hoursWeekdays: { en: "Fri - Wed: 9:00 AM - 1:30 PM & 4:30 PM - 10:30 PM", ar: "الجمعة – الأربعاء: 9:00 صباحاً – 1:30 ظهراً ومن 4:30 عصراً – 10:30 مساءً" },
+  hoursSunday: { en: "Thursday: Closed", ar: "الخميس: مغلق" },
   addressLabel: { en: "Address", ar: "العنوان" },
-  addressValue: { en: "Office No: 202, Burj Amoon, Near Sharjah Islamic Bank, Al Gurfah, Fujairah, UAE", ar: "مكتب رقم 202، برج آمون، بالقرب من مصرف الشارقة الإسلامي، الغرفة، الفجيرة، الإمارات العربية المتحدة" },
+  addressValue: { en: "Office No: 202, Burj Amoon, Near Sharjah Islamic Bank, Al Ghurfah, Fujairah, UAE", ar: "مكتب رقم 202، برج آمون، بالقرب من مصرف الشارقة الإسلامي، الغرفة، الفجيرة، الإمارات العربية المتحدة" },
   phoneLabel: { en: "Phone Concierge", ar: "الهاتف" },
   whatsappLabel: { en: "Direct Concierge", ar: "الكونسيرج المباشر" },
 
