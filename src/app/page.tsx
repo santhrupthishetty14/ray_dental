@@ -20,7 +20,6 @@ import {
   Clock,
   ExternalLink,
   ShieldCheck,
-  Video,
 } from "lucide-react";
 
 import Navbar from "@/components/Navbar";
@@ -968,13 +967,7 @@ export default function Home() {
                 ))}
               </div>
 
-              {/* Video icon indicator for premium luxury video testimonials overlay */}
-              <div className="flex justify-center mb-8">
-                <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-light/10 text-gold-light text-[9px] uppercase tracking-widest font-bold border border-gold-mid/25">
-                  <Video className="h-3.5 w-3.5 text-gold-light animate-pulse" />
-                  <span>{isRtl ? "شاهد التوثيق المرئي" : "Watch Video Log"}</span>
-                </span>
-              </div>
+
 
               <blockquote className="font-sans text-lg md:text-2xl text-white leading-relaxed font-light italic mb-10 max-w-2xl mx-auto relative z-10">
                 "{reviews[activeReviewIndex].text}"
