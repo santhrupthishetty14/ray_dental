@@ -125,7 +125,7 @@ const translations: Record<string, Record<Language, string>> = {
     ar: "الدكتور شريف ك. بافا هو طبيب أسنان تجميلي شغوف يتمتع بخبرة تقارب العقد في طب الأسنان التجميلي. بصفته المؤسس والرئيس التنفيذي لعيادة راي لطب الأسنان ذ.م.م، فهو متخصص في تصميم ابتسامة هوليوود، وتجميل الابتسامة، والفينير، وعلاجات الأسنان التجميلية المتقدمة. يشتهر الدكتور شريف بأسلوبه الفني واهتمامه بالتفاصيل، ويجمع بين تقنيات طب الأسنان الحديثة والرعاية الشخصية لخلق ابتسامات طبيعية وواثقة. إن التزامه بالتميز ورضا المرضى جعله اسماً موثوقاً به في طب الأسنان التجميلي."
   },
   doc4Specialty: { en: "Founder and CEO", ar: "المؤسس والرئيس التنفيذي" },
-  doc4Credentials: { en: "Cosmetic Dentist • Specialist in Aesthetic Dentistry", ar: "طبيب أسنان تجميلي • أخصائي تجميل الأسنان" },
+  doc4Credentials: { en: "Cosmetic Dentist with expertise in Hollywood Smile Design", ar: "طبيب أسنان تجميلي مع خبرة في تصميم ابتسامة هوليوود" },
   doc4Experience: { en: "9+ Years Aesthetic Dentistry", ar: "أكثر من ٩ سنوات في تجميل الأسنان" },
 
   doc5Name: { en: "Dr. Wujithan Sid", ar: "د. وجيثان سيد" },
@@ -135,7 +135,7 @@ const translations: Record<string, Record<Language, string>> = {
     ar: "الدكتورة وجيثان سيد هي جراحة أسنان متميزة تركز بشكل خاص على علاج عصب الأسنان وطب أسنان الأطفال. بصفتها المؤسس والمدير المالي لعيادة راي لطب الأسنان ذ.م.م، فهي تجمع بين التميز السريري والقيادة الاستراتيجية، مما يساهم في تقديم رعاية استثنائية للمرضى ونمو المؤسسة. تتمتع الدكتورة وجيثان بمهارة عالية في علاجات قنوات الجذور، ورعاية أسنان الأطفال، وطب الأسنان الترميمي، وطب الأسنان الوقائي، وخلع الأسنان، وإدارة حالات طوارئ الأسنان، وهي ملتزمة بتقديم رعاية أسنان رحيمة ومبنية على الأدلة للمرضى من جميع الأعمار. إن أسلوبها اللطيف، ودقتها السريرية، وفلسفتها التي تركز على المريض جعلتها خياراً موثوقاً به للأطفال والبالغين على حد سواء."
   },
   doc5Specialty: { en: "Founder and CFO", ar: "المؤسس والمدير المالي" },
-  doc5Credentials: { en: "Dental Surgeon (BDS) • Specialist in Endodontics & Pedodontics", ar: "جراحة أسنان (BDS) • أخصائية علاج الجذور وطب أسنان الأطفال" },
+  doc5Credentials: { en: "General Dentist with expertise in Minor Oral Surgery", ar: "طبيبة أسنان عامة مع خبرة في جراحة الفم الصغرى" },
   doc5Experience: { en: "10+ Years Dedicated Clinical Care", ar: "أكثر من ١٠ سنوات من الرعاية السريرية المخصصة" },
 
   doc6Name: { en: "Dr. Muhammed Salam K", ar: "د. محمد سلام ك." },
@@ -155,7 +155,7 @@ const translations: Record<string, Record<Language, string>> = {
     ar: "الدكتور فاروق رحمن كالاباتيل هو طبيب أسنان عام ماهر يتمتع بخبرة سريرية تبلغ ٥ سنوات. وهو معروف بدقته السريرية الاستثنائية، ومهاراته اليدوية الممتازة، ونهجه الرحيم الذي يركز على المريض، مما يضمن رعاية أسنان مريحة وعالية الجودة. وهو متخصص في علاج عصب الأسنان، واستئصال اللب، وطب الأسنان التجميلي، والإجراءات الجراحية الصغرى."
   },
   doc7Specialty: { en: "General Dentist", ar: "طبيب أسنان عام" },
-  doc7Credentials: { en: "BDS • Specialist in Root Canal & Esthetics", ar: "بكالوريوس في جراحة طب الأسنان (BDS) • أخصائي علاج الجذور وتجميل الأسنان" },
+  doc7Credentials: { en: "General Dentist with advanced expertise in Root Canal Treatments", ar: "طبيب أسنان عام مع خبرة متقدمة في علاج عصب الأسنان" },
   doc7Experience: { en: "5+ Years Clinical Practice", ar: "أكثر من ٥ سنوات من الممارسة السريرية" },
 
   // Technology Section

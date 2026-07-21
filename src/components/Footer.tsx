@@ -54,8 +54,8 @@ export default function Footer({ onOpenBooking }: FooterProps) {
           
           <p className="text-xs text-neutral-600 leading-relaxed font-light font-sans max-w-sm">
             {isRtl
-              ? "نصمم ابتسامات استثنائية ونقدم رعاية صحية تجميلية نخبوية تجمع بين إرث إكلينيكي ممتد لـ ٦٠ عاماً وأحدث التقنيات الرقمية المبتكرة."
-              : "Designing signature smiles and providing elite aesthetic care, bridging a 60-year heritage of clinical trust with digital diagnostic innovation."}
+              ? "نصمم ابتسامات استثنائية ونقدم رعاية صحية تجميلية نخبوية تجمع بين إرث إكلينيكي ممتد لأكثر من عقدين وأحدث التقنيات الرقمية المبتكرة."
+              : "Designing signature smiles and providing elite aesthetic care, bridging over two decades of clinical trust with digital diagnostic innovation."}
           </p>
 
           <div className="flex gap-4 pt-2">

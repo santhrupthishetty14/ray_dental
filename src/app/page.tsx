@@ -347,9 +347,6 @@ export default function Home() {
             
             {/* Story texts on the left */}
             <div className={`lg:col-span-7 space-y-8 ${isRtl ? "text-right" : "text-left"}`}>
-              <span className="text-[11px] uppercase tracking-luxury-wide font-bold text-gold-light font-sans block">
-                {isRtl ? "تراثنا الممتد لـ ٦ عقود" : "OUR 60-YEAR LEGACY"}
-              </span>
               <h2 className="font-serif text-4xl sm:text-5xl lg:text-[54px] leading-tight text-white font-light">
                 {isRtl ? "فن الدقة وجماليات الابتسامة" : "The Art of Precision & Smile Aesthetics"}
               </h2>
