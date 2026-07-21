@@ -144,8 +144,8 @@ const translations: Record<string, Record<Language, string>> = {
     en: "A dedicated General Dentist with over 5 years of clinical experience, skilled in managing a wide range of routine dental procedures. As the Chief Operating Officer (COO) of Ray Dental LLC, he combines clinical expertise with operational leadership to ensure high standards of patient care and practice management. Passionate about Exodontia and Minor Oral Surgical Procedures, with strong expertise in restorative dentistry, preventive care, emergency dental management, and comprehensive treatment planning.",
     ar: "طبيب أسنان عام متميز يتمتع بخبرة سريرية تزيد عن ٥ سنوات، وماهر في إدارة مجموعة واسعة من إجراءات طب الأسنان الروتينية. بصفته الرئيس التنفيذي للعمليات (COO) لشركة راي لطب الأسنان ذ.م.م، فهو يجمع بين الخبرة السريرية والقيادة التشغيلية لضمان معايير عالية من رعاية المرضى وإدارة العيادة. شغوف بخلع الأسنان والإجراءات الجراحية الصغرى للفم، مع خبرة قوية في طب الأسنان الترميمي، والرعاية الوقائية، وإدارة طوارئ الأسنان، والتخطيط الشامل للعلاج."
   },
-  doc6Specialty: { en: "Chief Operating Officer & General Dentist", ar: "الرئيس التنفيذي للعمليات وطبيب أسنان عام" },
-  doc6Credentials: { en: "BDS • Specialist in Minor Oral Surgery", ar: "بكالوريوس في جراحة طب الأسنان (BDS) • متخصص في جراحة الفم الصغرى" },
+  doc6Specialty: { en: "", ar: "" },
+  doc6Credentials: { en: "General Dentist with Expertise in Biomimetic Dentistry", ar: "طبيب أسنان عام مع خبرة في طب الأسنان الحيوي التكاملي" },
   doc6Experience: { en: "5+ Years Clinical Practice", ar: "أكثر من ٥ سنوات من الممارسة السريرية" },
 
   doc7Name: { en: "Dr. Farook Rahman Kalappattil", ar: "د. فاروق رحمن كالاباتيل" },

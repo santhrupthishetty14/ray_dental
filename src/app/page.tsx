@@ -817,10 +817,12 @@ export default function Home() {
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-8 border-t border-white/10">
-                  <div className="space-y-2">
-                    <span className="text-[10px] uppercase tracking-widest text-neutral-450 font-bold block">{isRtl ? "المسمى الوظيفي" : "Designation"}</span>
-                    <p className="text-sm sm:text-base font-semibold text-gold-light font-sans">{doctors[activeDoctorIndex].specialty}</p>
-                  </div>
+                  {doctors[activeDoctorIndex].specialty && (
+                    <div className="space-y-2">
+                      <span className="text-[10px] uppercase tracking-widest text-neutral-450 font-bold block">{isRtl ? "المسمى الوظيفي" : "Designation"}</span>
+                      <p className="text-sm sm:text-base font-semibold text-gold-light font-sans">{doctors[activeDoctorIndex].specialty}</p>
+                    </div>
+                  )}
                   <div className="space-y-2">
                     <span className="text-[10px] uppercase tracking-widest text-neutral-450 font-bold block">{isRtl ? "الشهادات والاعتمادات" : "Credentials"}</span>
                     <p className="text-sm sm:text-base font-semibold text-neutral-200 font-sans">{doctors[activeDoctorIndex].credentials}</p>
